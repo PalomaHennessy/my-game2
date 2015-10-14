@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animalz</title>
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text.css"href="game.css">
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+	
+</head>
+<body>
+
+	<div id='launchPage'>
+		<div class="container"id="difficulty">
+			<h1>Please Choose Your Level of Difficulty</h1>
+			</br>
+			<form id="selector-buttons">
+			<label class="radio-inline"><input type="radio" name="optradio" value="game.html#easy">Easy</label>
+			<label class="radio-inline"><input type="radio" name="optradio" value="game.html#medium">Medium</label>
+			<label class="radio-inline"><input type="radio" name="optradio" value="game.html#hard">Hard</label>
+			</form>
+		</div>
+	</div>
+
+	<div id="opacity">
+		<div id='playGame'>
+			<div><h1 id="head">Guess that Animal!</h1></div>	
+			<div class="row">
+				<div class="col-md-4" id="player1">
+					<h2 >Player 1</h2>
+					<div id="counter1">0</div>
+				</div>
+
+
+				<div class="col-md-4">
+					<div id ="images">
+						<container id="imageInput">
+						</container>
+					</div>
+					<div id="submit"> 
+						<input type="text" id="guess"></input>
+						<form id="submit" >
+							<button type="submit" class="btn btn-default">Enter Answer</button>
+						</form>
+						<button type="submit" class="btn btn-default" id="new-game">New Game?</button>
+					</div>	
+				</div>
+
+				<div class="col-md-4" id="player2">
+					<h2>Player 2</h2>
+					<div id="counter2">0</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
