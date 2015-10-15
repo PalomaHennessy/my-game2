@@ -1,7 +1,7 @@
 var easy = ['Tiger', 'Elephant', 'Blue Whale', 'Orangutan', 'Panda', 'Orca', 'Giraffe', 'Polar Bear', 'Rhinoceros', 'Hippopotamus', 'Koala', 'Moose', 'Chimpanzee', 'Cheetah'];
 var medium = ['Brown Bear', 'Snow Leopard', 'Humpback Whale', 'Aardvark', 'Puma', 'Sperm whale', 'coyote', 'red panda', 'narwal', 'flamingo', 'komodo dragon', 'great white shark'];
 var hard = ['iberian lynx', 'aye-aye', 'wolverine', 'bonobo', 'caracal', 'puffin', 'mallard', 'hawksbill turtle', 'whale shark', 'giant manta ray', 'sunfish'];
-var easyImgs = ['img/tiger.jpg', 'img/elephant.jpg', 'img/bluewhale.jpg', 'img/orangutan.jpg', 'img/panda.jpg', 'img/orca.jpg', 'img/giraffe.jpg', 'img/polar bear.jpg', 'img/rhinoceros.jpg', 'img/hippopotamus.jpg', 'img/koala.jpg', 'img/moose.jpg', 'img/chimpanzee.jpg', 'img/cheetah.jpg'];
+var easyImgs = ['img/tiger.jpg', 'img/elephant.jpg', 'img/bluewhale.jpg', 'img/orangutan.jpg', 'img/panda.jpg', 'img/orca.jpg', 'img/giraffe.jpg', 'img/polarbear.jpg', 'img/rhinoceros.jpg', 'img/hippopotamus.jpg', 'img/koala.jpg', 'img/moose.jpg', 'img/chimpanzee.jpg', 'img/cheetah.jpg'];
 var mediumImgs =  ['img/brownbear.jpg', 'img/snowleopard.jpg', 'img/humpbackwhale.jpg', 'img/aardvark.jpg', 'img/puma.jpg', 'img/spermwhale.jpg', 'img/coyote.jpg', 'img/redpanda.jpg', 'img/narwhal.jpg', 'img/flamingo.jpg', 'img/komododragon.jpg', 'img/greatwhiteshark.jpg'];
 var hardImgs = ['img/iberianlynx.jpg', 'img/aye-aye.jpg', 'img/wolverine.jpg', 'img/bonobo.jpg', 'img/caracal.jpg', 'img/puffin.jpg', 'img/mallard.jpg', 'img/hawksbillturtle.jpg', 'img/whaleshark.jpg', 'img/giantmantaray.jpg', 'img/sunfish.jpg'];
 var animalGuess = "";
