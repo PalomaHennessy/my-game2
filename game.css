@@ -12,7 +12,7 @@
 	text-align: center;
     position:  center; 
     margin-top: 30px;
-    padding: 30px;
+    padding: 10px;
 
 }
 
@@ -64,7 +64,7 @@ input {
 
 }
 form {
-	padding-bottom: 100px;
+	padding-bottom: 140px;
 }
 
 #new-game {
@@ -101,8 +101,6 @@ form {
 	height: 100%;
 }
 
-
-
 #launchPage p {
 	font-family: 'Nobile', Helvetica, Arial, sans-serif;
     font-size: 13px;
@@ -112,8 +110,8 @@ form {
 #selector-buttons {
 	text-align: center;
 	border-radius: 10px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
+	font-family: 'Poiret One', cursive;
+	font-size: 27px;
 }
 
 input[type=radio] {
